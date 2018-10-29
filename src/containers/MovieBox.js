@@ -32,4 +32,15 @@ class MovieBox extends Component {
             }
         ];
     }
+
+    render() {
+        return (
+            <div className="movie-box">
+                <h2>Upcoming Movie Releases for The UK</h2>
+                <MovieList data={this.state.data} />
+            </div>
+        )
+    }
 }
+
+export default MovieBox;
