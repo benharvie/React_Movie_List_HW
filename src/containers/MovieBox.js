@@ -5,7 +5,10 @@ class MovieBox extends Component {
     constructor(props) {
         super(props);
 
-        this.state = [{
+        this.state = {
+            data:
+        [
+            {
                 id: 1,
                 name: "Spider-Man: Into the Spider-Verse",
                 url: "https://www.imdb.com/title/tt4633694/?ref_=rlm"
@@ -30,7 +33,8 @@ class MovieBox extends Component {
                 name: "Captain Marvel",
                 url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
             }
-        ];
+        ]
+    }
     }
 
     render() {
